@@ -10,7 +10,7 @@ const NUM_TAG_PAGES = 99;
 
 const SITE_NAME = 'CamIndex';
 const SITE_DESC = 'Live cam room index, sorted by tag. Compare viewers, HD streams, languages, and locations across thousands of live broadcasters in one dense, scannable table.';
-const SITE_URL = ''; // set to your github pages URL when known
+const SITE_URL = 'https://livecamsignals.github.io/supreme-octo-broccoli'; // set to your github pages URL when known
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
